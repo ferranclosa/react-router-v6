@@ -4,15 +4,17 @@ const Home = () => {
 
     let navigate = useNavigate()
  
-    const [someState] = useState({
+    const [someState] = useState( {
             one: 1, 
             two: 2, 
             twenty: 20, 
             today: new Date().toLocaleString()
     })
 
+    
+
     const handleAbout = () => {
-        navigate('/about' , {state: {someState}} )  
+        navigate('/about' , {state: { someState}} )  
     }
 
     return (
