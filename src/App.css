@@ -14,7 +14,24 @@
 }
 code{
   font-family: 'Courier New', Courier, monospace;
-  font-size: 1rem;
+  font-size: 1.5rem;
+    margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 20px;
+
+  
+}
+
+
+p {
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 40px;
+}
+
+button {
+  min-width: 40px;
+  min-height: 16px;
 }
 
 @keyframes App-logo-spin {
